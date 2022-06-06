@@ -1,0 +1,49 @@
+{
+  "name": "eslint-config-goodleby",
+  "version": "1.0.0",
+  "description": "Strict and opinionated ESLint configuration with typescript, react, jest and prettier support",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . && eslint . --fix",
+    "format": "prettier --write .",
+    "test": "npm run format && npm run lint",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodleby/eslint-config-goodleby.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript",
+    "react",
+    "jest",
+    "prettier",
+    "imports"
+  ],
+  "author": "Alex Chebotarsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goodleby/lib/issues"
+  },
+  "homepage": "https://github.com/goodleby/lib#readme",
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "prettier": "^2.6.2"
+  }
+}
