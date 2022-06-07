@@ -3,8 +3,12 @@
 # dependencies
 node_modules/
 
+# testing
+coverage/
+
 # misc
 .DS_Store
+.eslintcache
 
 # git tools
 .github
@@ -17,4 +21,7 @@ node_modules/
 .prettierignore
 
 # configs
+.babelrc
 .eslintrc.js
+tsconfig.json
+webpack.config.js

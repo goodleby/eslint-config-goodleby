@@ -3,5 +3,13 @@
 # dependencies
 node_modules/
 
+# testing
+coverage/
+
+# production
+build/
+types/
+
 # misc
 .DS_Store
+.eslintcache
